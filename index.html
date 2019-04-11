@@ -5,10 +5,20 @@
     <title>Egg Facts</title>
     <style>
         h1 {text-decoration:underline; font-family:Arial;}
+        #grad1 {
+        background: red;
+        background: -webkit-linear-gradient(left, orange , yellow, green, cyan, blue, violet);
+        background: -o-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
+        background: -moz-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
+        background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 20vw;
+        }
     </style>
 </head>
 <body style="color:black" background="https://images5.alphacoders.com/349/349992.jpg">
-    <h1>Welcome to Egg Facts!!</h1>
+    <h1 id="grad1">Welcome to Egg Facts!</h1>
     <p>
         1. An Egg is easier to spin if it is hard-cooked!
     </p>
